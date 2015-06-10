@@ -1,0 +1,29 @@
+<ul>
+	<li>
+	<h1>
+		<%=item.get("title")%>
+		<br/>
+		<% if(item.get("is_veg")) { %>
+			<span style="color:green">Veg</span>
+		<% } else {%>
+			<span style="color:red">Non-Veg</span>
+		<% } %>
+		<br/>
+		<%=item.get("price")%>
+		<br/>
+		<% if(item.get("is_add_on")) { %>
+		Add On
+		<% } %>
+		<br/>
+		<% if(item.get("is_add_on")) { %>
+		Complimentary
+		<% } %>
+	</h1>
+	</li>
+	<li><a href="#"><img src="<%=item.get("item_image_big")%>" alt="img02"></a></li>
+	<li><h1><%=item.get("description")%></h1></li>
+	<li>
+		<h1>Left : <%=item.get("left_qty")%></h1>
+		<br/>
+	</li>
+</ul>

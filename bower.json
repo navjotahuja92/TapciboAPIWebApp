@@ -1,0 +1,34 @@
+{
+  "name": "TapciboAPIWebApp",
+  "version": "0.0.0",
+  "authors": [
+    "Navjot Ahuja <navjotahuja92@gmail.com>"
+  ],
+  "keywords": [
+    "Tapcibo",
+    "web"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    ".bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "requirejs": "~2.1.18"
+  }
+}
