@@ -19,6 +19,7 @@ function($, _, Backbone, Tapcibo, ItemCollection, ItemView, itemCollectionTempla
 			data.fetch({async : false}).done(function(response){
 				that.collection = new ItemCollection(response.menu);
 			});
+			this.baseTemplate.find('.load').hide();
 		},
 
 		render : function(){
